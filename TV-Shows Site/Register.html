@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/Register.css"/>
+</head>
+<body>
+        <form id="RegisterForm">
+            <button class="btnCloseRegister" onclick="closeRegisterForm()"> &times;</button>
+            <div class="namediv">
+                <label>Name :</label>
+                <input class="inputname" id="nameid" type="text" placeholder="Enter Name" />
+            </div>
+            <div class="surnamediv">
+                <label>Surname :</label>
+                <input class="inputsname" id="snameid" type="text" placeholder="Enter Surname" />
+            </div>
+            <div class="emaildiv">
+                <label>Email :</label>
+                <input class="inputemail" id="emailid" type="text" placeholder="Enter Email" />
+            </div>
+            <div class="passworddiv">
+                <label>Password :</label>
+                <input class="inputpasswrd" id="passwordid" type="text" placeholder="Enter Password" />
+            </div>
+            <div class="memberdiv">
+                <p>Already a member?</p>
+                <a href="Login.html">
+                    <p class="clickable">Login</p>
+                </a>
+            </div>
+            <div class="signup">
+                <button class="btnSignUp">Sign Up</button>
+            </div>
+        </form>
+    <script src="js/Register.js"></script>
+</body>
+</html>

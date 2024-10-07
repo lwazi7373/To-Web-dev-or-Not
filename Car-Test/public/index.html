@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <ul>
+        <li><button onclick="goToCarsPage('Cars')">See All Cars</button>
+        <li>
+            <div class="price-filter">
+                <button onclick="applyPriceFilter('price<100000')">Below 100 000</button>
+                <button onclick="applyPriceFilter('price>100000')">Above 100 000</button>
+            </div>
+        </li>
+        <li>
+            <div class="sort-filter">
+                <button onclick="applySortFilter('name')">Sort-Name A-Z</button>
+                <button onclick="applySortFilter('-name')">Sort-Name Z-A</button>
+            </div>
+        </li>
+    </ul>
+
+    <script>
+        function goToCarsPage(page) {
+            window.location.href = `/${page}`;
+        }
+
+        function applyPriceFilter(filter) {
+            window.location.href = `/Cars?pricefilter=${filter}`;
+        }
+
+        function applySortFilter(sort) {
+            window.location.href = `/Cars?sort=${sort}`;
+        }
+    </script>
+    
+</body>
+</html>

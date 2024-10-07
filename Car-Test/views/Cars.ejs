@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="/css/Cars.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <% cars.forEach(car=> { %>
+                <div class="car-container">
+                    <img class="Car-image" src="<%= car.image %>" alt="<%= car.name %>" />
+                    <button onclick="viewCar('<%= car.name %>')">View <%= car.name %></button>
+                </div> 
+        <% }) %>
+    </div>
+
+    <script>
+        function viewCar(carName) {
+            window.location.href = `/Cars/Car?name=${carName}`;
+        }
+    </script>
+
+</body>
+</html>

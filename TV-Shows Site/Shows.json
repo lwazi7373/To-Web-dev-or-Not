@@ -1,0 +1,86 @@
+[
+    { 
+    "name": "Beauty and the Beast",
+    "genre" : "Fantasy / Romance",
+    "rating" : "Rated: PG",
+    "description" : "Belle embarks on a journey to save her father from a creature that has locked him in his dungeon. Eventually, she learns that the beast is an enchanted prince who has been cursed.",
+    "profileimage" : "images/image-shows/Beaty and the beast.jpg"
+},
+{
+   "name": "Billions",
+    "genre" : "Drama",
+    "rating" : "Rated: PG-16",
+    "description" : "Chuck Rhoades, a sincere but ruthless US attorney, engages in an egoistic battle with hedge fund kingpin Bobby 'Axe' Axelrod as they try to outdo each other in the competitive financial market.",
+    "profileimage" : "images/image-shows/Billions.jpg" 
+},
+{
+   "name": "Enola Holmes",
+    "genre" : "Mystery/Crime",
+    "rating" : "Rated: PG-16",
+    "description" : "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+    "profileimage" : "images/image-shows/Enola holmes.jpg" 
+},
+{
+   "name": "Gen V",
+    "genre" : "Action",
+    "rating" : "Rated: PG-18",
+    "description" : "The lives of hormonal, competitive Superheroes as they put their physical, sexual, and moral boundaries to the test.",
+    "profileimage" : "images/image-shows/GenV.jpg" 
+},
+{
+    "name": "Maleficient",
+    "genre" : "Fantasy/Family",
+    "rating" : "Rated: PG",
+    "description" : "Maleficent, a kind-hearted fairy who changed after her lover Stefan deceived her, places a curse on his daughter Aurora. But soon she realizes that only Aurora can bring peace to the troubled country",
+    "profileimage" : "images/image-shows/Maleficient.jpg"
+},
+{
+    "name": "New Mutants",
+    "genre" : "Horror/Sci-fi",
+    "rating" : "Rated: PG-13",
+    "description" : "Five young mutants who have suffered traumatic experiences are admitted into a secret facility. Soon after, they begin experiencing visions of their past and doubt the safety of the facility.",
+    "profileimage" : "images/image-shows/New Mutants.jpg"
+},
+{
+    "name": "Peacemaker",
+    "genre" : "Action",
+    "rating" : "Rated: PG-16",
+    "description" : "After recovering from his injures, Christopher Smith is forced to join a black ops squad and eliminate parasites that have taken over human bodies around the world.",
+    "profileimage" : "images/image-shows/Peacemaker.jpg"
+},
+{
+    "name": "Peaky Blinders",
+    "genre" : "Drama",
+    "rating" : "Rated: PG-16",
+    "description" : "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
+    "profileimage" : "images/image-shows/Peaky Blinders.jpg"
+},
+{
+    "name": "Red Notice",
+    "genre" : "Action/Comedy",
+    "rating" : "Rated: PG-13",
+    "description" : "In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.",
+    "profileimage" : "images/image-shows/Red Notice.jpg"
+},
+{
+    "name": "Suits",
+    "genre" : "Drama",
+    "rating" : "Rated: PG",
+    "description" : "A college dropout, Mike Ross, possesses immense competence. A set of circumstances leads to him effectively working as a law associate for Harvey Specter despite not having gone to law school.",
+    "profileimage" : "images/image-shows/Suits.jpg"
+},
+{
+    "name": "The 100",
+    "genre" : "Drama",
+    "rating" : "Rated: PG",
+    "description" : "A nuclear conflict has decimated civilisation. A century later, a spaceship accommodating humanity's lone survivors dispatch 100 juvenile delinquents back to the Earth to determine its habitability.",
+    "profileimage" : "images/image-shows/The 100.jpg"
+},
+{
+    "name": "You",
+    "genre": "Thriller",
+    "rating": "Rated: PG-16",
+    "description": "What would you do for love? For Joe, an intense young man who frequently becomes smitten with beautiful, smart women, this question is put to the test. A charming yet awkward crush becomes something more sinister when love turns into obsession for Joe.",
+    "profileimage":"images/image-shows/You.jpg"
+}
+]

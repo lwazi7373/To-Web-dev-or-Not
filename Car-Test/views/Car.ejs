@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link rel="stylesheet" href="/css/Car.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="image-div">
+            <img class="Car-image" src="<%= car.image %>" height="500px" width="800px" alt="<%= car.name %>" />
+        </div>
+        <div class="details-div">
+            <p class="car-name">Name: <%= car.name %></p>
+            <p class="Car-Availability">Availability: <%= car.available ? 'Available' : 'Not Available' %></p>
+            <p class="Car-color">Color: <%= car.color %></p>
+            <p class="Car-model">Model: <%= car.model %></p>
+            <p class="Car-price">Price: $<%= car.price %></p>
+        </div>
+    </div>
+</body>
+
+</html>

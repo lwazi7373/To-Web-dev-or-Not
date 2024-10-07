@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/Login.css" />
+</head>
+
+<body>
+        <form id="LoginForm">
+            <button class="btnCloseLogin" onclick="closeLoginForm()"> &times;</button>
+            <div class="emaildiv">
+                <label>Email :</label>
+                <input class="inputemail" id="emailid" type="text" placeholder="Enter Email" />
+            </div>
+            <div class="passworddiv">
+                <label>Password :</label>
+                <input class="inputpasswrd" id="passwordid" type="text" placeholder="Enter Password" />
+            </div>
+            <div class="verificationdiv">
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me" id="remember_me"> Remember me
+                </label>
+                <a href="#">
+                    <p class="forgot-password">Forgot Password?</p>
+                </a>
+            </div>
+            <div class="accountdiv">
+                <p>Don't Have an Account?</p>
+                <a href="Register.html">
+                    <p class="clickable"> Register</p>
+                </a>
+            </div>
+            <div class="login">
+                <button class="btnLogin">Login</button>
+            </div>
+        </form>
+    <script src="js/Login.js"></script>
+</body>
+</html>

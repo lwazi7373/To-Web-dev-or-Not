@@ -1,0 +1,168 @@
+.showbody {
+    background: url("../images/image-shows/Beaty\ and\ the\ beast.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* yaxis */
+    align-items: center;
+    /* x-axis */
+    /*Add color for the blur element*/
+    background-color: rgba(12, 12, 12, 0.455);
+    backdrop-filter: blur(20px);
+    min-height: 100vh;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 90vh;
+    /*Solved the top and bottom padding problem, (vh)*/
+}
+
+.show-image {
+    width: 35%;
+    height: 90vh;
+}
+
+.show-img {
+    width: 100%;
+    height: 90vh;
+}
+
+.show-details {
+    width: 50%;
+    height: 90vh;
+    padding: 20px;
+    /* Added padding for better spacing */
+    color: rgb(214, 213, 213);
+    /* Changed text color for better readability */
+    font-family: Arial, sans-serif;
+    /* Changed font for better compatibility */
+    overflow-y: auto;
+    /* Added overflow for scrolling if content exceeds height */
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 400;
+    transition: 0.6s;
+}
+
+.btn:active {
+    scale: 0.92;
+}
+
+.btn:hover {
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+
+#name {
+    font-size: 40px;
+    /* Increased font size for emphasis */
+    font-weight: normal;
+    /* Added bold font weight */
+}
+
+#genre,
+#rating {
+    margin-top: 10px;
+    /* Added margin for spacing between elements */
+}
+
+#description {
+    margin-top: 20px;
+    /* Added margin for spacing */
+    font-style: italic;
+    /* Italicized description for emphasis */
+}
+
+.icnImg {
+    padding: 5px;
+}
+
+.div-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+
+.btnLike,
+.btnDislike {
+    align-items: center;
+    background-image: linear-gradient(144deg, #2d3a6d, rgb(31, 51, 89), rgba(68, 101, 161, 0.681));
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: rgb(214, 213, 213);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btnLike,
+.btnDislike {
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    transition: 300ms;
+}
+
+.btnLike,
+.btnDislike:active {
+    outline: 0;
+}
+
+.btnLike,
+.btnDislike:hover {
+    outline: 0;
+}
+
+.btnLike:hover {
+    background: none;
+    border-style: groove;
+    border: solid;
+}
+
+.btnDislike:hover {
+    background: none;
+    border-style: groove;
+    border: solid;
+}
+
+.btnLike:active {
+    transform: scale(0.9);
+}
+
+.btnDislike:active {
+    transform: scale(0.9);
+}

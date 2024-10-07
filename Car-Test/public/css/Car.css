@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 600px;
+}
+
+.image-div{
+    height: 500px;
+    width: 600px;
+}
+
+.details-div{
+    height: 200px;
+    width: 600px;
+}
